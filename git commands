@@ -1,0 +1,23 @@
+#check branch status
+git branch 
+
+#create branch to work on 
+git branch --create "name"
+
+#delete branch you are working on
+git branch --delete "name"
+
+#move to branch
+git checkout branch 
+
+#check the status 
+git status
+
+#add change to git
+git add . /// git add "change"
+
+#commit your changes with a message
+git commit -m "this is my change"
+
+#push the code to origin, MUST to commit first 
+git push --set-upstream origin new_branch
