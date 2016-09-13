@@ -1,3 +1,6 @@
+#clone repo
+git clone https://url
+
 #check branch status
 git branch 
 
@@ -21,3 +24,5 @@ git commit -m "this is my change"
 
 #push the code to origin, MUST to commit first 
 git push --set-upstream origin new_branch
+or #shortcut
+git push origin new_branch
